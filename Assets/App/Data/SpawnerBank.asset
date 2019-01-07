@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 440003cb91f13cd4897215352853654d, type: 3}
+  m_Name: SpawnerBank
+  m_EditorClassIdentifier: 
+  m_prefabs:
+  - prefabs:
+    - {fileID: 1080877760832990, guid: cfcdba42839ef774aa8887df2431fdee, type: 2}
+    - {fileID: 1477362538883954, guid: 682add83bb504b940bbe81751c6c592a, type: 2}
+    - {fileID: 1877139209898222, guid: c5dbdb6fa0d72e544a8ce68bbddb067d, type: 2}
+    - {fileID: 1041497234863610, guid: d8b0bf23a27331948a317fcaa0301090, type: 2}
+    - {fileID: 1916860819756578, guid: dd0202d930716f142ad58b722ab4baec, type: 2}
+    - {fileID: 1582753500793834, guid: f4d095e9fe9b2ef4898939f24f69f684, type: 2}
+    divideDistance:
+    - 0
+    - 0.005
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0
+    divideImpulseK:
+    - 5
+    - 3
+    - 2
+    - 1
+    - 0.5
+    - 0
+  - prefabs:
+    - {fileID: 1025885911110542, guid: 4b439c0510539074db06d5c192b2e4e7, type: 2}
+    - {fileID: 1651261832663988, guid: 1fcb8e82754a652478053de590eef171, type: 2}
+    - {fileID: 1500577908833094, guid: 150681489945b4b4b9740653f2fa0fbf, type: 2}
+    - {fileID: 1791602254714630, guid: e14d8e17988ad2643af4631d1209b5fd, type: 2}
+    - {fileID: 1976406580838848, guid: ee9428e462bf11945864bb19f8c8c6d6, type: 2}
+    - {fileID: 1582753500793834, guid: 297361c2544f6b648a3571b331138637, type: 2}
+    divideDistance:
+    - 0
+    - 0.005
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0
+    divideImpulseK:
+    - 5
+    - 3
+    - 2
+    - 1
+    - 0.5
+    - 0
+  - prefabs:
+    - {fileID: 1333940318149240, guid: 1f32649852aa86c4bb5078868684252a, type: 2}
+    - {fileID: 1815259061722858, guid: 3effc632dbe71d645bbba90811fe6938, type: 2}
+    - {fileID: 1327311687162884, guid: 0aba78c47302c3a4fb118dbeb40f5c01, type: 2}
+    - {fileID: 1468197961920274, guid: 72b7a90d85a261042bbaccd8612edc87, type: 2}
+    - {fileID: 1634222616443782, guid: 767f4ff4e14dcba4fba7caae71a24020, type: 2}
+    - {fileID: 1582753500793834, guid: 5026b46ea7903854c9e17488509d093a, type: 2}
+    divideDistance:
+    - 0
+    - 0.005
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0
+    divideImpulseK:
+    - 5
+    - 3
+    - 2
+    - 1
+    - 0.5
+    - 0
+  - prefabs:
+    - {fileID: 1681124506157126, guid: 2993cc50e731e8b4b975076e280c622a, type: 2}
+    - {fileID: 1846039868665912, guid: 3dd8a735ddd597d4c8c087f224712075, type: 2}
+    - {fileID: 1442355033881496, guid: 5135581522cbaa7418fde3a81b95244a, type: 2}
+    - {fileID: 1069181364704148, guid: 498fb08b648107a48b149546d4aa0eb5, type: 2}
+    - {fileID: 1257978164012346, guid: ee6aab954cfa8a74d953501eceda61cb, type: 2}
+    - {fileID: 1582753500793834, guid: 231af2b28a744db419bae22055053555, type: 2}
+    divideDistance:
+    - 0
+    - 0.005
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0
+    divideImpulseK:
+    - 5
+    - 3
+    - 2
+    - 1
+    - 0.5
+    - 0
+  - prefabs:
+    - {fileID: 1241172404882962, guid: fc496d74cd4b4de479d6370728d2d78b, type: 2}
+    - {fileID: 1992836588102288, guid: 6b95c44ed69e23b4c9fd99db32eec8f2, type: 2}
+    - {fileID: 1479961003915698, guid: fdb6efe5933a3bd4d8c3e671af58cf78, type: 2}
+    - {fileID: 1096209617268196, guid: 8dad750ebfd48a049a336721016cd015, type: 2}
+    - {fileID: 1128371829524352, guid: 31aea23d4c782a84f8f043a08619cecf, type: 2}
+    - {fileID: 1582753500793834, guid: 7787f2e94d4c35d46bebbb51785b32a7, type: 2}
+    divideDistance:
+    - 0
+    - 0.005
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0
+    divideImpulseK:
+    - 5
+    - 3
+    - 2
+    - 1
+    - 0.5
+    - 0
+  - prefabs:
+    - {fileID: 1258176653343850, guid: 034ddaf3ef0692d4ca7b3eeb87c9e2f6, type: 2}
+    - {fileID: 1780827525584426, guid: 12986827fdfdcf24b89edc14fe6a80dd, type: 2}
+    - {fileID: 1023543347207118, guid: 585a11924923edc4a803574e3b8d9b08, type: 2}
+    - {fileID: 1857984720620824, guid: 1f81be20ca98b2840ab3c42b9adecd2e, type: 2}
+    - {fileID: 1389240276113470, guid: 089e023704393b2499640d51488b1ef5, type: 2}
+    - {fileID: 1582753500793834, guid: 6577dae9773e8d6469d210c5fb3d94ca, type: 2}
+    divideDistance:
+    - 0
+    - 0.005
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0
+    divideImpulseK:
+    - 5
+    - 3
+    - 2
+    - 1
+    - 0.5
+    - 0
+  - prefabs:
+    - {fileID: 1101339232267066, guid: 59b0ee818b8896345888aaf68e36f3a7, type: 2}
+    - {fileID: 1228682793180822, guid: 0feac35ffb85cb445a544b4b6abe759b, type: 2}
+    - {fileID: 1931954702047840, guid: 617219f4edad149478fb36486a471208, type: 2}
+    - {fileID: 1445821174407260, guid: 9cb177aae71e68c4c9ac98e8da2b9608, type: 2}
+    - {fileID: 1434954933171276, guid: cea0c89420a5f0d44b80b75bcbf4b636, type: 2}
+    - {fileID: 1582753500793834, guid: 8258d3a6fd1302c4e8e73c44be75bad4, type: 2}
+    divideDistance:
+    - 0
+    - 0.005
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0
+    divideImpulseK:
+    - 5
+    - 3
+    - 2
+    - 1
+    - 0.5
+    - 0
+  - prefabs:
+    - {fileID: 1097380831698150, guid: e7b09c0d6b854fe49a5a6319a647d305, type: 2}
+    - {fileID: 1238963810702992, guid: c474fef3880de444a878b0eb84444e2f, type: 2}
+    - {fileID: 1209156913338272, guid: 6baf1b7cc905e4d43bc5ab4cbae3b61c, type: 2}
+    - {fileID: 1403571975907094, guid: ceda1bf99dfd20243a9722251f0e918e, type: 2}
+    - {fileID: 1420118857890282, guid: 6f9b989c868df4c4cb9b159256b02fa0, type: 2}
+    - {fileID: 1582753500793834, guid: 013ad44a67e103e45bb831b9d9927645, type: 2}
+    divideDistance:
+    - 0
+    - 0.005
+    - 0.05
+    - 0.05
+    - 0.05
+    - 0
+    divideImpulseK:
+    - 5
+    - 3
+    - 2
+    - 1
+    - 0.5
+    - 0
+  m_prefabsCounts:
+  - m_minObjects: 00000000140000002800000050000000a000000014000000
+    m_maxObjects: 00000000140000002800000050000000a000000014000000
+  - m_minObjects: 00000000140000002800000050000000a000000014000000
+    m_maxObjects: 00000000140000002800000050000000a000000014000000
+  - m_minObjects: 00000000140000002800000050000000a000000014000000
+    m_maxObjects: 00000000140000002800000050000000a000000014000000
+  - m_minObjects: 00000000140000002800000050000000a000000014000000
+    m_maxObjects: 00000000140000002800000050000000a000000014000000
+  - m_minObjects: 00000000140000002800000050000000a000000014000000
+    m_maxObjects: 00000000140000002800000050000000a000000014000000
+  - m_minObjects: 00000000140000002800000050000000a000000014000000
+    m_maxObjects: 00000000140000002800000050000000a000000014000000
+  - m_minObjects: 00000000140000002800000050000000a000000014000000
+    m_maxObjects: 00000000140000002800000050000000a000000014000000
+  - m_minObjects: 00000000140000002800000050000000a000000014000000
+    m_maxObjects: 00000000140000002800000050000000a000000014000000

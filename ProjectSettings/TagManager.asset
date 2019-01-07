@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - enemy
+  - walls
+  - inactive
+  - activator
+  - missile
+  - player
+  - collectable
+  - collectableActivator
+  - inactiveCollectable
+  - milestonesActivator
+  - milestones
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 3564239377
+    locked: 0
+  - name: enemies
+    uniqueID: 680184137
+    locked: 0
+  - name: collectables
+    uniqueID: 3843668417
+    locked: 0
+  - name: player
+    uniqueID: 2044451365
+    locked: 0
+  - name: feedback
+    uniqueID: 2565099389
+    locked: 0

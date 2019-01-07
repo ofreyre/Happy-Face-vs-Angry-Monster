@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Other
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    - serializedVersion: 2
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d48fb19b6a8d2764ca49be1ccc0cbb61, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4d4486d0f33779c4aa7cc076b3b15da3, type: 3}
+  - {fileID: 21300000, guid: 584599a2d028793498bf547ec36dcfdf, type: 3}
+  - {fileID: 21300000, guid: 7d8cd9b2b4dd76e47bfab51baff77114, type: 3}
+  - {fileID: 21300000, guid: d4bdb943b944c944b93d7b6a8231d426, type: 3}
+  - {fileID: 21300000, guid: 838b1a9388556ab46beaa6f2ce50a893, type: 3}
+  - {fileID: 21300000, guid: a7ee32d6b2848fd49b17a4731e35981f, type: 3}
+  - {fileID: 21300000, guid: eca6aa6792fc9b74dad1992b860f905e, type: 3}
+  - {fileID: 21300000, guid: a78d3d9751a7e494ba7161b194d51ba5, type: 3}
+  - {fileID: 21300000, guid: 92da92080c413344ea2fe951cbda5681, type: 3}
+  - {fileID: 21300000, guid: 1836fa384303698438115f13b7be5a44, type: 3}
+  - {fileID: 21300000, guid: 979660a8e0126264f92c2b386c6d6fa3, type: 3}
+  - {fileID: 21300000, guid: 30be66d8335a61e4e822a2eddb7c1a7f, type: 3}
+  - {fileID: 21300000, guid: 64c20c3960147bc46b0eeb15b44e0f5d, type: 3}
+  - {fileID: 21300000, guid: 0498c13a41e6a7b44916c304974fcadf, type: 3}
+  - {fileID: 21300000, guid: 66e80e3b6f11f5f46b269337e4e6a7eb, type: 3}
+  - {fileID: 21300000, guid: 7db4d3fb4214f8341af7818e159eab98, type: 3}
+  - {fileID: 21300000, guid: b65e554df07db0e4185b62ea29767fdc, type: 3}
+  - {fileID: 21300000, guid: 184122ed390d451408145d587a8006d7, type: 3}
+  - {fileID: 21300000, guid: eeafe22ef0a30c94b8b934f31148f682, type: 3}
+  - {fileID: 21300000, guid: 9f23d3be3c919d346ad6faa630714d61, type: 3}
+  - {fileID: 21300000, guid: 8c90761f0d92bca4dab8a0fca42639cb, type: 3}
+  - {fileID: 21300000, guid: 905c44af517480a42a19531141ea82a1, type: 3}
+  - {fileID: 21300000, guid: 2c4f48dfbd4f7e0498c3ef62ab315082, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - upgradesStamina
+  - upgradesSpeed
+  - upgradesLapse
+  - upgradesAmount
+  - audioOn
+  - btnAgain
+  - upgradesShield
+  - btnGames
+  - btnClear
+  - btnFrame
+  - btnInventory
+  - upgradesRadius
+  - btnItemsStore
+  - upgradesDamage
+  - btnSettings
+  - btnRate
+  - upgradesDuration
+  - btnMain
+  - btnStore
+  - btnUpgrades
+  - btnAdd
+  - UserControls
+  - audioOff
+  m_Tag: Other
+  m_IsVariant: 0

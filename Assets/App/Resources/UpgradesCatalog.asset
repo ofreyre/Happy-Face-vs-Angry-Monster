@@ -1,0 +1,410 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57227dda4d1f7a43866e7ae27ac8928, type: 3}
+  m_Name: UpgradesCatalog
+  m_EditorClassIdentifier: 
+  upgrades:
+  - category: 1
+    upgrades:
+    - type: 0
+      stars: 1
+      amount: 1
+      UIdata:
+        m_name: Stamina upgrade
+        m_description: More stamina
+        m_prefab: {fileID: 1131327771714956, guid: b88f42b6b458ea146bdfe96ca84bd3aa,
+          type: 2}
+    - type: 1
+      stars: 2
+      amount: 1
+      UIdata:
+        m_name: Damage upgrade
+        m_description: More damage
+        m_prefab: {fileID: 1249579743304096, guid: 74496026efbaf6b45bb2662a6368927f,
+          type: 2}
+    - type: 2
+      stars: 2
+      amount: 0.1
+      UIdata:
+        m_name: Shield upgrade
+        m_description: More shield
+        m_prefab: {fileID: 1630526753655196, guid: 064e9c9e7ff61124892293f6b024edbd,
+          type: 2}
+    - type: 3
+      stars: 3
+      amount: 0.04
+      UIdata:
+        m_name: Lifetime upgrade
+        m_description: More lifetime
+        m_prefab: {fileID: 1382761133825882, guid: e3b5c30fe82235943904dbc0aa550666,
+          type: 2}
+    - type: 6
+      stars: 3
+      amount: 100
+      UIdata:
+        m_name: Ammo upgrade
+        m_description: More amount of collectable and inventory item
+        m_prefab: {fileID: 1721818828423990, guid: 987139711a872384b80c36d5b548961d,
+          type: 2}
+    - type: 0
+      stars: 4
+      amount: 1
+      UIdata:
+        m_name: Stamina upgrade
+        m_description: More stamina
+        m_prefab: {fileID: 1131327771714956, guid: b88f42b6b458ea146bdfe96ca84bd3aa,
+          type: 2}
+    - type: 1
+      stars: 5
+      amount: 2
+      UIdata:
+        m_name: Damage upgrade
+        m_description: More damage
+        m_prefab: {fileID: 1249579743304096, guid: 74496026efbaf6b45bb2662a6368927f,
+          type: 2}
+    - type: 2
+      stars: 6
+      amount: 0.1
+      UIdata:
+        m_name: Shield upgrade
+        m_description: More shield
+        m_prefab: {fileID: 1630526753655196, guid: 064e9c9e7ff61124892293f6b024edbd,
+          type: 2}
+  - category: 2
+    upgrades:
+    - type: 1
+      stars: 2
+      amount: 1
+      UIdata:
+        m_name: Bomb power upgrade
+        m_description: More destruction power
+        m_prefab: {fileID: 1249579743304096, guid: 74496026efbaf6b45bb2662a6368927f,
+          type: 2}
+    - type: 4
+      stars: 2
+      amount: 1
+      UIdata:
+        m_name: Bomb radius upgrade
+        m_description: More destruction radius
+        m_prefab: {fileID: 1595927012366030, guid: 234ccd945a2b84d478588da1c7ef64ec,
+          type: 2}
+    - type: 3
+      stars: 3
+      amount: 0.15
+      UIdata:
+        m_name: Bomb duration upgrade
+        m_description: More destruction time
+        m_prefab: {fileID: 1382761133825882, guid: e3b5c30fe82235943904dbc0aa550666,
+          type: 2}
+    - type: 5
+      stars: 4
+      amount: -0.02
+      UIdata:
+        m_name: Bomb frequency upgrade
+        m_description: More destruction frequency
+        m_prefab: {fileID: 1701255277781648, guid: 4d47058b5e06a4e4e8fe02c849304685,
+          type: 2}
+    - type: 1
+      stars: 4
+      amount: 2
+      UIdata:
+        m_name: Bomb power upgrade
+        m_description: More destruction power
+        m_prefab: {fileID: 1249579743304096, guid: 74496026efbaf6b45bb2662a6368927f,
+          type: 2}
+    - type: 4
+      stars: 5
+      amount: 1
+      UIdata:
+        m_name: Bomb radius upgrade
+        m_description: More destruction radius
+        m_prefab: {fileID: 1595927012366030, guid: 234ccd945a2b84d478588da1c7ef64ec,
+          type: 2}
+    - type: 3
+      stars: 6
+      amount: 0.15
+      UIdata:
+        m_name: Bomb duration upgrade
+        m_description: More destruction time
+        m_prefab: {fileID: 1382761133825882, guid: e3b5c30fe82235943904dbc0aa550666,
+          type: 2}
+    - type: 5
+      stars: 7
+      amount: -0.02
+      UIdata:
+        m_name: Bomb frequency upgrade
+        m_description: More destruction frequency
+        m_prefab: {fileID: 1701255277781648, guid: 4d47058b5e06a4e4e8fe02c849304685,
+          type: 2}
+  - category: 5
+    upgrades:
+    - type: 0
+      stars: 3
+      amount: 4
+      UIdata:
+        m_name: Stamina upgrade
+        m_description: More maximum stamina of Pacman
+        m_prefab: {fileID: 1131327771714956, guid: b88f42b6b458ea146bdfe96ca84bd3aa,
+          type: 2}
+    - type: 1
+      stars: 3
+      amount: 1
+      UIdata:
+        m_name: Damage upgrade
+        m_description: More damage that ghosts receive when colliding with Pacman
+        m_prefab: {fileID: 1249579743304096, guid: 74496026efbaf6b45bb2662a6368927f,
+          type: 2}
+    - type: 2
+      stars: 3
+      amount: 0.1
+      UIdata:
+        m_name: Shield upgrade
+        m_description: More shield of Pacman
+        m_prefab: {fileID: 1630526753655196, guid: 064e9c9e7ff61124892293f6b024edbd,
+          type: 2}
+    - type: 0
+      stars: 4
+      amount: 6
+      UIdata:
+        m_name: Stamina upgrade
+        m_description: More maximum stamina of Pacman
+        m_prefab: {fileID: 1131327771714956, guid: b88f42b6b458ea146bdfe96ca84bd3aa,
+          type: 2}
+    - type: 1
+      stars: 4
+      amount: 1
+      UIdata:
+        m_name: Damage upgrade
+        m_description: More damage that ghosts receive when colliding with Pacman
+        m_prefab: {fileID: 1249579743304096, guid: 74496026efbaf6b45bb2662a6368927f,
+          type: 2}
+    - type: 2
+      stars: 5
+      amount: 0.1
+      UIdata:
+        m_name: Shield upgrade
+        m_description: More shield of Pacman
+        m_prefab: {fileID: 1630526753655196, guid: 064e9c9e7ff61124892293f6b024edbd,
+          type: 2}
+    - type: 1
+      stars: 6
+      amount: 1
+      UIdata:
+        m_name: Damage upgrade
+        m_description: More damage that ghosts receive when colliding with Pacman
+        m_prefab: {fileID: 1249579743304096, guid: 74496026efbaf6b45bb2662a6368927f,
+          type: 2}
+    - type: 2
+      stars: 7
+      amount: 0.1
+      UIdata:
+        m_name: Shield upgrade
+        m_description: More shield of Pacman
+        m_prefab: {fileID: 1630526753655196, guid: 064e9c9e7ff61124892293f6b024edbd,
+          type: 2}
+  - category: 4
+    upgrades:
+    - type: 0
+      stars: 2
+      amount: 15
+      UIdata:
+        m_name: Stamina upgrade
+        m_description: More Stamina
+        m_prefab: {fileID: 1131327771714956, guid: b88f42b6b458ea146bdfe96ca84bd3aa,
+          type: 2}
+    - type: 1
+      stars: 2
+      amount: 1
+      UIdata:
+        m_name: Damage upgrade
+        m_description: More damage
+        m_prefab: {fileID: 1249579743304096, guid: 74496026efbaf6b45bb2662a6368927f,
+          type: 2}
+    - type: 2
+      stars: 2
+      amount: 0.1
+      UIdata:
+        m_name: Shield upgrade
+        m_description: More shield
+        m_prefab: {fileID: 1630526753655196, guid: 064e9c9e7ff61124892293f6b024edbd,
+          type: 2}
+    - type: 4
+      stars: 2
+      amount: 0.1
+      UIdata:
+        m_name: Size upgrade
+        m_description: Increase size
+        m_prefab: {fileID: 1595927012366030, guid: 234ccd945a2b84d478588da1c7ef64ec,
+          type: 2}
+    - type: 0
+      stars: 3
+      amount: 15
+      UIdata:
+        m_name: Stamina upgrade
+        m_description: More stamina
+        m_prefab: {fileID: 1131327771714956, guid: b88f42b6b458ea146bdfe96ca84bd3aa,
+          type: 2}
+    - type: 1
+      stars: 3
+      amount: 1
+      UIdata:
+        m_name: Damage upgrade
+        m_description: More damage
+        m_prefab: {fileID: 1249579743304096, guid: 74496026efbaf6b45bb2662a6368927f,
+          type: 2}
+    - type: 2
+      stars: 4
+      amount: 0.1
+      UIdata:
+        m_name: Shield upgrade
+        m_description: More shield
+        m_prefab: {fileID: 1630526753655196, guid: 064e9c9e7ff61124892293f6b024edbd,
+          type: 2}
+    - type: 4
+      stars: 4
+      amount: 0.1
+      UIdata:
+        m_name: Size upgrade
+        m_description: Increase size
+        m_prefab: {fileID: 1595927012366030, guid: 234ccd945a2b84d478588da1c7ef64ec,
+          type: 2}
+  - category: 0
+    upgrades:
+    - type: 6
+      stars: 1
+      amount: 0.5
+      UIdata:
+        m_name: Amount upgrade
+        m_description: Increase amount of collectable and inventory item
+        m_prefab: {fileID: 1721818828423990, guid: 987139711a872384b80c36d5b548961d,
+          type: 2}
+    - type: 6
+      stars: 1
+      amount: 1
+      UIdata:
+        m_name: Amount upgrade
+        m_description: Increase amount of collectable and inventory item
+        m_prefab: {fileID: 1721818828423990, guid: 987139711a872384b80c36d5b548961d,
+          type: 2}
+    - type: 6
+      stars: 2
+      amount: 1
+      UIdata:
+        m_name: Amount upgrade
+        m_description: Increase amount of collectable and inventory item
+        m_prefab: {fileID: 1721818828423990, guid: 987139711a872384b80c36d5b548961d,
+          type: 2}
+    - type: 6
+      stars: 3
+      amount: 1
+      UIdata:
+        m_name: Amount upgrade
+        m_description: Increase amount of collectable and inventory item
+        m_prefab: {fileID: 1721818828423990, guid: 987139711a872384b80c36d5b548961d,
+          type: 2}
+    - type: 6
+      stars: 3
+      amount: 1
+      UIdata:
+        m_name: Amount upgrade
+        m_description: Increase amount of collectable and inventory item
+        m_prefab: {fileID: 1721818828423990, guid: 987139711a872384b80c36d5b548961d,
+          type: 2}
+    - type: 6
+      stars: 4
+      amount: 1
+      UIdata:
+        m_name: Amount upgrade
+        m_description: Increase amount of collectable and inventory item
+        m_prefab: {fileID: 1721818828423990, guid: 987139711a872384b80c36d5b548961d,
+          type: 2}
+    - type: 6
+      stars: 4
+      amount: 1
+      UIdata:
+        m_name: Amount upgrade
+        m_description: Increase amount of collectable and inventory item
+        m_prefab: {fileID: 1721818828423990, guid: 987139711a872384b80c36d5b548961d,
+          type: 2}
+    - type: 6
+      stars: 5
+      amount: 2
+      UIdata:
+        m_name: Amount upgrade
+        m_description: Increase amount of collectable and inventory item
+        m_prefab: {fileID: 1721818828423990, guid: 987139711a872384b80c36d5b548961d,
+          type: 2}
+  - category: 3
+    upgrades:
+    - type: 7
+      stars: 3
+      amount: 1
+      UIdata:
+        m_name: Power upgrade
+        m_description: Increase power
+        m_prefab: {fileID: 1115932323188114, guid: ebe21c36eb7f24849ac7b5a26a128157,
+          type: 2}
+    - type: 5
+      stars: 3
+      amount: -0.02
+      UIdata:
+        m_name: Frequency upgrade
+        m_description: Increase shoot frequency
+        m_prefab: {fileID: 1701255277781648, guid: 4d47058b5e06a4e4e8fe02c849304685,
+          type: 2}
+    - type: 6
+      stars: 4
+      amount: 100
+      UIdata:
+        m_name: Amount upgrade
+        m_description: Increase amount of collectable and inventory item
+        m_prefab: {fileID: 1721818828423990, guid: 987139711a872384b80c36d5b548961d,
+          type: 2}
+    - type: 7
+      stars: 4
+      amount: 1
+      UIdata:
+        m_name: Speed upgrade
+        m_description: Increase speed of ammo
+        m_prefab: {fileID: 1115932323188114, guid: ebe21c36eb7f24849ac7b5a26a128157,
+          type: 2}
+    - type: 5
+      stars: 4
+      amount: -0.02
+      UIdata:
+        m_name: Frequency upgrade
+        m_description: Increase shoot frequency
+        m_prefab: {fileID: 1701255277781648, guid: 4d47058b5e06a4e4e8fe02c849304685,
+          type: 2}
+    - type: 6
+      stars: 5
+      amount: 100
+      UIdata:
+        m_name: Amount upgrade
+        m_description: Increase amount of collectable and inventory item
+        m_prefab: {fileID: 1721818828423990, guid: 987139711a872384b80c36d5b548961d,
+          type: 2}
+    - type: 7
+      stars: 5
+      amount: 1
+      UIdata:
+        m_name: Speed upgrade
+        m_description: Increase speed of ammo
+        m_prefab: {fileID: 1115932323188114, guid: ebe21c36eb7f24849ac7b5a26a128157,
+          type: 2}
+    - type: 5
+      stars: 6
+      amount: -0.02
+      UIdata:
+        m_name: Frequency upgrade
+        m_description: Increase shoot frequency
+        m_prefab: {fileID: 1701255277781648, guid: 4d47058b5e06a4e4e8fe02c849304685,
+          type: 2}

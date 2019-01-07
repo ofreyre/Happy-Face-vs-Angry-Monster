@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1091171781303808}
+  m_IsPrefabParent: 1
+--- !u!1 &1091171781303808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4108169258933820}
+  - component: {fileID: 114002672450893260}
+  - component: {fileID: 114253442586088866}
+  - component: {fileID: 114319004288925132}
+  m_Layer: 0
+  m_Name: AudioManagerGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4108169258933820
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1091171781303808}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 117.43816, y: 246.68636, z: -1.9841464}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114002672450893260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1091171781303808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78026c4cb646e6c49861ed3513aa3910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_clip: button
+--- !u!114 &114253442586088866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1091171781303808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea07b88b47ad264789bab20a1d0757f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bank:
+  - {fileID: 11400000, guid: f51fcf4fc9abe494eb1d7ed2e03649f0, type: 2}
+  m_clips:
+    m_keys:
+    - shoot
+    - explode0
+    - explode1
+    - explode2
+    - gdie
+    - start
+    - die
+    - win
+    m_values:
+    - m_clip: {fileID: 8300000, guid: 55c3a9bdc5ca69642ba7ef72379304ff, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 
+    - m_clip: {fileID: 8300000, guid: 7e9d7da47cdc849468f8989dbe6726eb, type: 3}
+      m_maxAtOnce: 4
+      m_isConsumable: 0
+      m_key: 
+    - m_clip: {fileID: 8300000, guid: 71a202ee4e2ffc1479d3fa3c1b104511, type: 3}
+      m_maxAtOnce: 4
+      m_isConsumable: 0
+      m_key: 
+    - m_clip: {fileID: 8300000, guid: 48516daa8a6a4bd4bbdc6c855a660f02, type: 3}
+      m_maxAtOnce: 4
+      m_isConsumable: 0
+      m_key: 
+    - m_clip: {fileID: 8300000, guid: a79403f06ca9ee44e9c120f43ee2e909, type: 3}
+      m_maxAtOnce: 4
+      m_isConsumable: 0
+      m_key: 
+    - m_clip: {fileID: 8300000, guid: d669ef54e7ad3fd49ac02c7ea333a9b0, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 1
+      m_key: 
+    - m_clip: {fileID: 8300000, guid: 13c50c47331b3be4bbeeff2baf88de20, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 
+    - m_clip: {fileID: 8300000, guid: e78e1d10d8b2302469b9a6c43d6aa70a, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 
+--- !u!114 &114319004288925132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1091171781303808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2f25b0a872fd645ada176f2f9d1674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_audio: start
+  loop: 0
